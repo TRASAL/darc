@@ -1,11 +1,11 @@
 # DARC
-[![DOI](https://zenodo.org/badge/165673299.svg)](https://zenodo.org/badge/latestdoi/165673299)![CI](https://github.com/loostrum/darc/workflows/CI/badge.svg?branch=master)
+[![DOI](https://zenodo.org/badge/165673299.svg)](https://zenodo.org/badge/latestdoi/165673299)![CI](https://github.com/trasal/darc/workflows/CI/badge.svg?branch=master)
 
 Data Analysis of Real-time Candidates from the Apertif Radio Transient System
 
 This repository contains the necessary software to automatically process FRB candidates produced by the ARTS real-time system.
 As of Summer 2020, DARC has discovered 18 new FRBs and several bursts from known repeaters.
-An extended description of DARC and other ARTS software can be found in my PhD thesis, available [here](http://hdl.handle.net/11245.1/abe5c8fa-1fdf-490b-ac0d-61e946f5791f).
+An extended description of DARC and other ARTS software can be Leon Oostrum's PhD thesis, available [here](http://hdl.handle.net/11245.1/abe5c8fa-1fdf-490b-ac0d-61e946f5791f).
 
 ### Installation
 
@@ -64,5 +64,5 @@ Start an observation: `darc --host arts001 --parset /path/to/parset start_observ
 To consult the status of DARC across the cluster, open the `~arts/darc/status` webpage on the master node.  
 
 ### Documentation
-Available at https://loostrum.github.io/darc/
+Available at https://trasal.github.io/darc/
 
